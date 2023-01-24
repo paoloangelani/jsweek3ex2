@@ -5,9 +5,9 @@ class Persona {
     }
 
     mostraEtà() {
-        if (first.età > second.età && first.età > third.età) {
+        if (first.età > second.età || first.età > third.età) {
             return first.età;
-        } else if (second.età > first.età && second.età > third.età) {
+        } else if (second.età > first.età || second.età > third.età) {
             return second.età;
         } else {
             return third.età;
